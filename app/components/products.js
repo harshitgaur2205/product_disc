@@ -25,7 +25,7 @@ const products = () => {
 ]
   return (
     <div className='product min-h-screen w-full px-8 py-8'>
-        <h1 className='heading  text-7xl h-36 w-11/12 px-10 py-2.5'>Products</h1>
+        <h1 className='heading  text-5xl h-36 w-11/12 px-10 py-2.5'>Products</h1>
         <hr/>
         {data.map((x) => {
             return(
